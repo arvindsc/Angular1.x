@@ -48,3 +48,9 @@ Using $provider.service()
 * Treats function it is passed as a constructor
 * Executes constructor function with "new" operator.
 
+
+------------------Value and Constant Services -----------------------
+* Shorthand for factory with no parameters <------> Simply registers services with injector, no factory/provider calls
+* Cannot be injected into a module configuration function <------> Can be injected into a module configuration function
+* Can be overridden by an AngularJS decorator <------> Cannot be override by an AngularJS decorator.
+    
