@@ -53,4 +53,9 @@ Using $provider.service()
 * Shorthand for factory with no parameters <------> Simply registers services with injector, no factory/provider calls
 * Cannot be injected into a module configuration function <------> Can be injected into a module configuration function
 * Can be overridden by an AngularJS decorator <------> Cannot be override by an AngularJS decorator.
+
+------Promises---------
+In Javasript, promises are objects which represent the pending result of an asynchronous operation.
+
+
     
